@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="185f0fc8-9dde-4307-b741-ed7a4cb4ba38" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jade.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaAgentFirstLab.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/A/AMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/B/BClass.java" afterDir="false" />
+    <list default="true" id="185f0fc8-9dde-4307-b741-ed7a4cb4ba38" name="Changes" comment="first lab">
+      <change beforePath="$PROJECT_DIR$/out/production/src/A/AMain$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/A/AMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/B/BClass.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,8 +66,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663365809996</updated>
-      <workItem from="1663365811136" duration="5084000" />
+      <workItem from="1663365811136" duration="5450000" />
     </task>
+    <task id="LOCAL-00001" summary="first lab">
+      <created>1663410169515</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663410169515</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,5 +91,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first lab" />
+    <option name="LAST_COMMIT_MESSAGE" value="first lab" />
   </component>
 </project>
