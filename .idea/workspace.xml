@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="185f0fc8-9dde-4307-b741-ed7a4cb4ba38" name="Changes" comment="first lab">
-      <change beforePath="$PROJECT_DIR$/out/production/src/A/AMain$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/src/A/AMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/src/B/BClass.class" beforeDir="false" />
+    <list default="true" id="185f0fc8-9dde-4307-b741-ed7a4cb4ba38" name="Changes" comment="gitignore">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/jade.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/jade1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/src.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +41,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "corretto-17",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2724138"
   }
@@ -66,7 +66,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663365809996</updated>
-      <workItem from="1663365811136" duration="5450000" />
+      <workItem from="1663365811136" duration="5734000" />
+      <workItem from="1663433059614" duration="191000" />
     </task>
     <task id="LOCAL-00001" summary="first lab">
       <created>1663410169515</created>
@@ -75,7 +76,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663410169515</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="delete compiled files">
+      <created>1663410338687</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663410338687</updated>
+    </task>
+    <task id="LOCAL-00003" summary="gitignore">
+      <created>1663410400669</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663410400669</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,6 +109,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first lab" />
-    <option name="LAST_COMMIT_MESSAGE" value="first lab" />
+    <MESSAGE value="delete compiled files" />
+    <MESSAGE value="gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
   </component>
 </project>
