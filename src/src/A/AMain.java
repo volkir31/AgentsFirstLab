@@ -21,7 +21,7 @@ public class AMain extends Agent {
                 ACLMessage receivedMessage = receive();
 
                 if (receivedMessage != null) {
-                    System.out.println(" - " + myAgent.getLocalName() + " receive: " + receivedMessage.getContent());
+                    System.out.println(" - " + myAgent.getLocalName() + " received: " + receivedMessage.getContent());
                 }
 
                 block();
@@ -31,15 +31,14 @@ public class AMain extends Agent {
         AMSAgentDescription[] agents = null;
 
         try {
-            SearchConstraints c = new SearchConstraints();
-            c.setMaxResults((long) -1);
-            agents = AMSService.search(this, new AMSAgentDescription(), c);
+            agents = AMSService.search(this, new AMSAgentDescription());
         } catch (FIPAException e) {
             System.out.println("oops not found AMS: " + e);
             e.printStackTrace();
         }
 
         assert agents != null;
+
         for (AMSAgentDescription agent : agents) {
             AID agentId = agent.getName();
             ACLMessage message = new ACLMessage(ACLMessage.INFORM);
@@ -48,6 +47,7 @@ public class AMain extends Agent {
             int rand = new Random().nextInt(7 - 1) + 1;
             String messageContent = rand == 3 ? "Bong" : "Ping";
             message.setContent(messageContent);
+
             send(message);
         }
     }

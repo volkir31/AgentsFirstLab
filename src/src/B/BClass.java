@@ -24,6 +24,7 @@ public class BClass extends Agent {
                         perform = ACLMessage.INFORM;
                         msg = "Pong";
                     }
+                    reply.setPerformative(perform);
                     reply.setContent(msg);
                     send(reply);
                 }
