@@ -5,6 +5,7 @@ import jade.core.Agent;
 import jade.core.behaviours.CyclicBehaviour;
 import jade.domain.AMSService;
 import jade.domain.FIPAAgentManagement.AMSAgentDescription;
+import jade.domain.FIPAAgentManagement.SearchConstraints;
 import jade.domain.FIPAException;
 import jade.lang.acl.ACLMessage;
 
@@ -30,7 +31,9 @@ public class AMain extends Agent {
         AMSAgentDescription[] agents = null;
 
         try {
-            agents = AMSService.search(this, new AMSAgentDescription());
+            SearchConstraints c = new SearchConstraints();
+            c.setMaxResults((long) -1);
+            agents = AMSService.search(this, new AMSAgentDescription(), c);
         } catch (FIPAException e) {
             System.out.println("oops not found AMS: " + e);
             e.printStackTrace();

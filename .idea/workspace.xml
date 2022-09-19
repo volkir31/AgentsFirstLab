@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="185f0fc8-9dde-4307-b741-ed7a4cb4ba38" name="Changes" comment="add jade to repository">
-      <change afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+    <list default="true" id="185f0fc8-9dde-4307-b741-ed7a4cb4ba38" name="Changes" comment="DOCUMENTATION">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +69,7 @@
       <workItem from="1663365811136" duration="5734000" />
       <workItem from="1663433059614" duration="426000" />
       <workItem from="1663439915193" duration="2182000" />
-      <workItem from="1663445328694" duration="529000" />
+      <workItem from="1663445328694" duration="1448000" />
     </task>
     <task id="LOCAL-00001" summary="first lab">
       <created>1663410169515</created>
@@ -114,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663441682271</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="DOCUMENTATION">
+      <created>1663446172813</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1663446172813</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +142,7 @@
     <MESSAGE value="delete compiled files" />
     <MESSAGE value="gitignore" />
     <MESSAGE value="add jade to repository" />
-    <option name="LAST_COMMIT_MESSAGE" value="add jade to repository" />
+    <MESSAGE value="DOCUMENTATION" />
+    <option name="LAST_COMMIT_MESSAGE" value="DOCUMENTATION" />
   </component>
 </project>
